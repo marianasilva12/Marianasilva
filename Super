@@ -1,0 +1,54 @@
+ Desafio Lógica Super Trunfo
+🎯 Objetivo:
+Ser o jogador com mais cartas ao final do jogo, usando lógica para escolher a melhor característica em cada rodada.
+
+🃏 Estrutura do jogo:
+Cada jogador recebe um número igual de cartas (ex: 5 cartas cada).
+
+Cada carta representa um personagem, animal, robô ou objeto fictício e possui atributos com valores numéricos.
+
+Um dos atributos é marcado como "Super Trunfo" em uma carta aleatória do baralho.
+
+Os atributos podem ser:
+
+Inteligência (0 a 100)
+
+Força (0 a 100)
+
+Velocidade (0 a 100)
+
+Estratégia (0 a 100)
+
+Lógica (0 a 100)
+
+📋 Regras:
+Um jogador inicia escolhendo uma carta da sua mão e selecionando um atributo para competir.
+
+Os demais jogadores devem jogar uma carta da sua mão, sem saber o atributo escolhido, e tentar adivinhar qual será o atributo escolhido (ex: por lógica ou blefe do adversário).
+
+Todos revelam as cartas.
+
+Quem tiver o maior valor no atributo escolhido vence a rodada e pega todas as cartas jogadas.
+
+Se alguém jogar o Super Trunfo, ele vence automaticamente, a menos que o atributo escolhido seja inferior ao de outro jogador que tenha adivinhado corretamente.
+
+Se houver empate, as cartas são colocadas em um "banco" e disputadas na próxima rodada.
+
+Vence o jogo quem tiver mais cartas após um número pré-definido de rodadas (ou quando alguém ficar sem cartas).
+
+🧠 Extra: Desafio de Lógica
+Em algumas rodadas, antes de escolher o atributo, o jogador precisa resolver um quebra-cabeça lógico (ex: sudoku pequeno, sequência lógica, enigma). Se resolver corretamente, pode ver uma carta do adversário antes de jogar. Se errar, perde a vez.
+
+✨ Exemplo de Carta:
+Nome: Robô Gama
+
+Inteligência: 78
+
+Força: 65
+
+Velocidade: 80
+
+Estratégia: 72
+
+Lógica: 88
+(Super Trunfo)
